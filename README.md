@@ -23,17 +23,7 @@ This is still currently a work in progress, and any input is welcome.
 Upgrading
 ---------
 
-**Warning: Upgrading to Spree 2.2.x & 2.3.x when using this extension is not backwards compatible.
-            I have removed the notion of drop ship orders which payments & commission were previously tracked to.
-            Now suppliers simply manage their shipments, and payments & commission are now linked to a payable object i.e. shipment in this case.
-            This means the previous method of determining a suppliers commission is no longer valid, and you will need to migrate your data accordingly.**
-
-I'm sorry for the inconvenience this may cause, but I've determined for this extension to meet it's most potential I needed to drastically alter the approach
-it was taking.  I'm still undergoing several more radical changes for Spree 2.3.x that involve moving product management from this extension into the spree_marketplace
-extension.  The goal from the beginning of this extension has been for it to be a very light weight and extensible drop shipping solution.  Much of this extension
-has been made obsolete by split shipping, and line item adjustments within Spree Core itself.  Now I feel I can really streamline this extension to take advantage
-of the recent Spree Core changes, and also move the product management into the marketplace extension as that is really more of what product management is inteded for.
-The typical drop shipping scenario would simply be a supplier being able to update their shipments they need to fulfill and nothing more.
+It's been update to run on latest version of **Ruby on Rails 5.0.1** and **Spree 3.2.0** and I'll keep updating it for future versions.  
 
 Installation
 ------------
@@ -42,7 +32,7 @@ Here's how to install spree_drop_ship into your existing spree site AFTER you've
 
 Add the following to your Gemfile:
 
-    gem 'spree_drop_ship', github: 'spree-contrib/spree_drop_ship'
+    gem 'spree_drop_ship', github: 'priom/spree_drop_ship'
 
 Make your bundle happy:
 
@@ -79,7 +69,7 @@ Demo
 You can easily use the spec/dummy app as a demo of spree_drop_ship. Just `cd` to where you develop and run:
 
 ```shell
-git clone git://github.com/spree-contrib/spree_drop_ship.git
+git clone git://github.com/priom/spree_drop_ship.git
 cd spree_drop_ship
 bundle install
 bundle exec rake test_app
