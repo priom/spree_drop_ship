@@ -115,10 +115,3 @@ Here are some ways *you* can contribute:
 * by refactoring code
 * by resolving [issues](https://github.com/spree-contrib/spree_drop_ship/issues)
 * by reviewing patches
-
-Donating
---------
-
-Bitcoin donations may be sent to: 1L6akT6Aus9r6Ashw1wDtLg7D8zJCVVZac
-
-Copyright (c) 2012-2014 Jeff Dutil, released under the [New BSD License](https://github.com/spree-contrib/spree_drop_ship/tree/master/LICENSE).
