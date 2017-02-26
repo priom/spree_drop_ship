@@ -2,14 +2,14 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_drop_ship'
-  s.version     = '3.0.1.beta'
+  s.version     = '3.2.0.rc3'
   s.summary     = 'Spree Drop Shipping Extension'
   s.description = 'Adds drop shipping functionality to Spree stores.'
-  s.required_ruby_version = '>= 2.0.0'
+  s.required_ruby_version = '>= 2.4.0'
 
-  s.author    = 'Jeff Dutil'
-  s.email     = 'JDutil@BurlingtonWebApps.com'
-  s.homepage  = 'http://github.com/JDutil/spree_drop_ship'
+  s.author    = 'Priom Chowdhury'
+  s.email     = 'priom.galaxy@gmail.com'
+  s.homepage  = 'https://github.com/priom/spree_drop_ship'
 
   s.files        = `git ls-files`.split("\n")
   s.test_files   = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'durable_decorator', '~> 0.2.0'
   s.add_dependency 'spree_api'
   s.add_dependency 'spree_backend'
-  s.add_dependency 'spree_core',        '~> 3.1.0.beta'
+  s.add_dependency 'spree_core',        '~> 3.2.0.rc3'
 
   s.add_development_dependency 'capybara',           '~> 2.2'
   s.add_development_dependency 'coffee-rails'
