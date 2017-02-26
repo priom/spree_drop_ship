@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.4.0'
 
   s.author    = 'Priom Chowdhury'
-  s.email     = 'priom.galaxy@gmail.com'
+  s.email     = 'c0der0@yahoo.com'
   s.homepage  = 'https://github.com/priom/spree_drop_ship'
 
   s.files        = `git ls-files`.split("\n")
